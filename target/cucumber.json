@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-05T09:36:17.016Z",
+        "line": 16,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6105746200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user lanch the browser",
+            "match": {
+              "location": "login.user_lanch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6998846500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user open TestMeApp",
+            "match": {
+              "location": "login.user_open_TestMeApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5364730700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user in the home page",
+            "match": {
+              "location": "login.user_in_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174892200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter \"AlexUser\" in user name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AlexUser\"",
+                  "offset": 11
+                }
+              ],
+              "location": "login.user_enter_in_user_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163346900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter \"Alex@123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex@123\"",
+                  "offset": 11
+                }
+              ],
+              "location": "login.user_enter_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276046300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click the login button",
+            "match": {
+              "location": "login.click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:login/edit.feature",
+    "tags": []
+  }
+]
